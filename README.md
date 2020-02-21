@@ -13,11 +13,11 @@ reconstruct all samples and calculate the average mean square error (MSE).
 5) For the values of d= {1, 2, 3, 4, …, 784} plot eigenvalues (y-axis) versus d (x-axis).  
 
 The suitable d proposed to achieve a proportion of variance POV = 95% is 154 resulting in a POV of 95.02%.  
-c)	The average mean square error (MSE) values for the reconstructed image for the specified d values.  
+The average mean square error (MSE) values for the reconstructed image for the specified d values.  
 ![](Figures/partc2.png)  
 The error in the image reduces dramatically as the initial number of d is increased from 0 to 100 where the error reaches a steady state at around 3000. The initial improvement in error has diminishing returns after approximately 200 where the error does not decrease much further.  
-d)	The class number ‘8’ was reconstructed from the sample and displayed for a variety of d values.  
+The class number ‘8’ was reconstructed from the sample and displayed for a variety of d values.  
 ![](Figures/PCA_recon.PNG)  
-e)	The eigenvalues as a function of d are shown.  
+The eigenvalues as a function of d are shown.  
 ![](Figures/Eigenvalues.png)  
 Most of the information about the image is within the first 50 d values. After around 200 d the eigenvalues do not contribute a lot to the overall clarity of the image which was demonstrated in part b where in order to capture 95% of the proportion of variance only 154 d was required. 
