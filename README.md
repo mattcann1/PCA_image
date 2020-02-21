@@ -10,7 +10,7 @@ reconstructed image). For different values of d= {1, 20, 40, 60, 80, …, 760, 7
 reconstruct all samples and calculate the average mean square error (MSE). 
 4)Reconstruct a sample from the class of number ‘8’ and show it as a ‘png’ image for d=
 {1, 10, 50, 250, 784}.  
-5) For the values of d= {1, 2, 3, 4, …, 784} plot eigenvalues (y-axis) versus d (x-axis).  
+5)For the values of d= {1, 2, 3, 4, …, 784} plot eigenvalues (y-axis) versus d (x-axis).  
 
 The suitable d proposed to achieve a proportion of variance POV = 95% is 154 resulting in a POV of 95.02%.  
 The average mean square error (MSE) values for the reconstructed image for the specified d values.  
